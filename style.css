@@ -1,0 +1,50 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: orange;
+}
+
+.container {
+    
+    /*display: flex;*/
+   /* flex-direction:column ;*/
+    height: 0;
+    padding: 5px;
+    margin: 0px 0px 0px 0px;
+        
+}
+
+.item{
+
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.conteudo{
+
+    width: 100vh;
+    border: 10px solid black; /*Borda e cor da bora*/
+    margin: 2px; /*Margem externa dos itens*/
+    display: flex;
+    background: red; /*cor das Divs Conteudo*/
+    font-family: sans-serif; /*Fonte das Divs Conteudo*/
+    color: white; /*Cor do texto*/
+    font-size: 45px; /*Tamanho do texto*/
+    justify-content: center; /*para alinhar o texto no centro*/
+    align-items: center;
+    flex-basis: 100% /*para as divs pegarem o tamanho todo da tela*/
+    
+}
+
+footer{
+
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    
+}
